@@ -3,7 +3,7 @@ from txtai.pipeline import Summary, Textractor
 from PyPDF2 import PdfReader
 
 st.set_page_config(layout="wide")
-@st.cache_data
+# @st.cache_data
 @st.cache_resource
 def text_summary(text, maxlength=None):
     #create summary instance
