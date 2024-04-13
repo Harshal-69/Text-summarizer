@@ -4,6 +4,6 @@ backgroundColor="#FFFFFF"
 secondaryBackgroundColor="#f0f2f6"
 textColor="#111111"
 font="monospace"
-[server]
-headless = true
-port = 8501
+# [server]
+# headless = true
+# port = 8501
